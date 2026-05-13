@@ -1,0 +1,23 @@
+# Secrets / local config
+.env
+*.secret.*
+config/*.json
+!config/sample.settings.json
+
+# Output
+output/*
+logs/*
+*.csv
+*.xlsx
+
+# macOS
+.DS_Store
+
+# PowerShell
+*.ps1xml
+*.pssc
+*.psrc
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
